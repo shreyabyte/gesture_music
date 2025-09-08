@@ -23,10 +23,3 @@ class HandTracker:
                               cv2.circle(img, (cx,cy), 10, (0,255,0), cv2.FILLED)
 
           return img
-
-
-
-
-
-
-

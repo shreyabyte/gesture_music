@@ -14,7 +14,7 @@ keys = [
 
 def run_piano():
     cap=cv2.VideoCapture(0)
-    tracker=HandTracker
+    tracker=HandTracker()
 
     while True:
         success, img = cap.read()

@@ -17,10 +17,10 @@ class HandTracker:
                     self.mpDraw.draw_landmarks(img, hand_landmarks, self.mpHands.HAND_CONNECTIONS) #to draw landmarks(dots+connections)
                     
                     for id,lm in enumerate(hand_landmarks.landmark):
-                         h,w,c= img.shape
-                         cx,cy=int(lm.x * w), int(lm.y * h)
+                         h,w,c= img.shape #img dimensions
+                         cx,cy=int(lm.x * w), int(lm.y * h) #converting to pixel coordinates
                          
-                         if id==8: #only extracting index finger here
+                         if id==8: #only extracting index fingertip here
                               fingertip=(cx,cy)
                               cv2.circle(img, (cx,cy), 10, (0,255,0), cv2.FILLED)
 

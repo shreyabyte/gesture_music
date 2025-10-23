@@ -12,7 +12,7 @@ class HandTracker:
           results = self.hands.process(imgRGB)
           fingertip=None #default when no hand or fingertip detected
           
-          if results.multi_hand_landmarks: #for if atleast one hand is detencted
+          if results.multi_hand_landmarks: #for if atleast one hand is detected
                for hand_landmarks in results.multi_hand_landmarks:
                     self.mpDraw.draw_landmarks(img, hand_landmarks, self.mpHands.HAND_CONNECTIONS) #to draw landmarks(dots+connections)
                     

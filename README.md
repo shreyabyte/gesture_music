@@ -1,9 +1,3 @@
-gesture_music
-Gesture-Driven Piano
-A simple piano controlled by hand gestures using OpenCV, MediaPipe, and Pygame.<br>
--Plays notes when you move index finger over keys<br>
--Press 'q' to quit the piano<br>
-
 # 🎹 Gesture-Controlled Virtual Piano
 
 A real-time virtual piano that allows users to play music using hand gestures.
@@ -34,10 +28,8 @@ This project leverages computer vision and hand tracking to detect finger positi
 3. Hand positions are mapped to predefined piano key regions.
 4. Pygame generates corresponding piano notes in real time.
 
+-Plays notes when you move index finger over keys<br>
+-Press 'q' to quit the piano<br>
 
-## 📌 Learning Outcomes
 
-* Applied computer vision concepts in a real-time system
-* Implemented spatial mapping logic for gesture recognition
-* Integrated event-driven audio processing
-* Strengthened understanding of OpenCV and MediaPipe workflows
+

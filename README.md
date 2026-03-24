@@ -4,7 +4,7 @@ A real-time virtual piano that allows users to play music using hand gestures.
 This project leverages computer vision and hand tracking to detect finger positions and map them to piano notes.
 
 
-## 🚀 Features
+##  Features
 
 * Real-time hand tracking using MediaPipe
 * Hand landmark detection with OpenCV
@@ -13,7 +13,7 @@ This project leverages computer vision and hand tracking to detect finger positi
 * Touch-free music interaction
 
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * Python
 * OpenCV

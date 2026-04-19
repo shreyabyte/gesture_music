@@ -6,13 +6,13 @@ pygame.mixer.init() #initializing pygame (turns on sound system)
 
 #mapping notes to sound files
 sounds = { 
-    "C": pygame.mixer.Sound("c.mp3"),
-    "D": pygame.mixer.Sound("d.mp3"),
-    "E": pygame.mixer.Sound("e.mp3"),
-    "F": pygame.mixer.Sound("f.mp3"),
-    "G": pygame.mixer.Sound("g.mp3"),
-    "A": pygame.mixer.Sound("a.mp3"),
-    "B": pygame.mixer.Sound("b.mp3")
+    "C": pygame.mixer.Sound("sounds/c.mp3"),
+    "D": pygame.mixer.Sound("sounds/d.mp3"),
+    "E": pygame.mixer.Sound("sounds/e.mp3"),
+    "F": pygame.mixer.Sound("sounds/f.mp3"),
+    "G": pygame.mixer.Sound("sounds/g.mp3"),
+    "A": pygame.mixer.Sound("sounds/a.mp3"),
+    "B": pygame.mixer.Sound("sounds/b.mp3")
 }
 
 keys = [ #(x1, y1, x2, y2, note)

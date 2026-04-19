@@ -31,5 +31,13 @@ This project leverages computer vision and hand tracking to detect finger positi
 -Plays notes when you move index finger over keys<br>
 -Press 'q' to quit the piano<br>
 
+## How to Run
 
+1. Clone the repository
+   git clone https://github.com/shreyabyte/gesture_music
 
+2. Install dependencies
+   pip install -r requirements.txt
+
+3. Run the project
+   python main.py
